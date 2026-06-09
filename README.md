@@ -1,5 +1,11 @@
 # FlexGrid Firmware (V1.0)
 
+> **Legacy firmware.** This targets the retired FlexGrid V1 hardware and uses the
+> legacy `uasyncio` API from the MicroPython pre-1.20 era. It will not run on
+> modern MicroPython (v1.20+) without porting to the `asyncio` module. For
+> current hardware, use [FlexGridV3-Firmware](https://github.com/Open-Muscle/FlexGridV3-Firmware).
+> Kept for reference and reproducibility of V1 boards.
+
 MicroPython firmware for the ESP32-S3 “FlexGrid V1.0” pressure-sensor matrix controller, part of the OpenMuscle project.
 
 ---
